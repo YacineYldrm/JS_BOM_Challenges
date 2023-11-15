@@ -34,7 +34,7 @@ setTimeout(() =>
 const zeit = document.body.querySelector('.zeit');
 let contentValue = 99;
 
-function reduce()
+const reduce = () =>
 {
     let reduceValue = setInterval(() => 
     {
